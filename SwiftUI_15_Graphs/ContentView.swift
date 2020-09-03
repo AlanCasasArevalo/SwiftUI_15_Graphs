@@ -1,16 +1,20 @@
-//
-//  ContentView.swift
-//  SwiftUI_15_Graphs
-//
-//  Created by Everis on 03/09/2020.
-//  Copyright © 2020 Alan. All rights reserved.
-//
+
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        ZStack{
+            Color.blue
+            .edgesIgnoringSafeArea(.all)
+            VStack {
+                Text("Grafica de barras")
+                    .font(.system(.title, design: .rounded))
+                    .bold()
+                
+                BarView()
+            }
+        }
     }
 }
 
