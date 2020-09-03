@@ -14,6 +14,7 @@
 		518E51732501017E0023D77C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518E51722501017E0023D77C /* Preview Assets.xcassets */; };
 		518E51762501017E0023D77C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518E51742501017E0023D77C /* LaunchScreen.storyboard */; };
 		518E517E250103CD0023D77C /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E517D250103CD0023D77C /* BarView.swift */; };
+		518E5180250106370023D77C /* MockBarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E517F250106370023D77C /* MockBarData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		518E51752501017E0023D77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		518E51772501017E0023D77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		518E517D250103CD0023D77C /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		518E517F250106370023D77C /* MockBarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBarData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				518E51692501017C0023D77C /* AppDelegate.swift */,
 				518E516B2501017C0023D77C /* SceneDelegate.swift */,
 				518E516D2501017C0023D77C /* ContentView.swift */,
+				518E517F250106370023D77C /* MockBarData.swift */,
 				518E517D250103CD0023D77C /* BarView.swift */,
 				518E516F2501017E0023D77C /* Assets.xcassets */,
 				518E51742501017E0023D77C /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				518E5180250106370023D77C /* MockBarData.swift in Sources */,
 				518E517E250103CD0023D77C /* BarView.swift in Sources */,
 				518E516A2501017C0023D77C /* AppDelegate.swift in Sources */,
 				518E516C2501017C0023D77C /* SceneDelegate.swift in Sources */,
